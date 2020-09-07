@@ -1,0 +1,315 @@
+<html lang="pt-br">
+
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-102330913-2"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-102330913-2');
+    </script>
+
+    <!-- Meta Tags -->
+    <meta charset="UTF-8">
+    <meta name="author" content="Genildo Lopes">
+    <meta name="description" content="O Hare CSS é um framework frontend e de Código Aberto, focado na produtividade e em oferecer
+        uma baixa curva de aprendizagem">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Hare CSS</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/hare.css">
+    <link rel="stylesheet" href="css/hare-colors.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    <link rel="shortcut icon" href="imgs/hare-icon.png" type="image/x-icon">
+
+</head>
+
+<body class="whitesmoke">
+    <!-- Navbar -->
+    <nav class="navbox dark">
+        <!-- Brand - Logo -->
+        <a href="index.html" class="nav-brand">
+            <div class="box-logo">
+                <span>H</span>
+            </div>
+        </a>
+
+        <!-- Links -->
+        <div class="nav-list">
+            <ul>
+                <li>
+                    <a href="doc.html">Documentação</a>
+                </li>
+                <!--<li>
+                    <a href="#">Apoie</a>
+                </li>-->
+                <!-- Github Logo -->
+                <li class="lg-only">
+                    <a href="https://github.com/GenildoLopes/Hare-UI">
+                        <img src="imgs/github.svg" alt="Github Ícone">
+                    </a>
+                </li>
+                <!-- Telegram Logo -->
+                <li class="lg-only">
+                    <a href="https://t.me/harecss">
+                        <img src="imgs/telegram-48.png" style="height: 37px;" alt="Telegram Ícone">
+                    </a>
+                </li>
+                <!-- Open Sidebar -->
+                <li class="lg-only">
+                    <img src="imgs/menu-round.svg" alt="" id="btn-menu-2">
+                </li>
+            </ul>
+        </div>
+
+        <!-- Button Open NavList -->
+        <img src="imgs/menu-6.svg" class="open-menu" alt="Botão Abrir Menu">
+    </nav>
+
+    <!-- Aside List -->
+    <aside class="sidebar fixed">
+        <ul>
+            <li>
+                <a href="#heights">Alturas</a>
+            </li>
+            <li>
+                <a href="#backgrounds">Backgrounds</a>
+            </li>
+            <li>
+                <a href="#borders">Bordas</a>
+            </li>
+            <li>
+                <a href="#border-radius">Border-Radius</a>
+            </li>
+            <li>
+                <a href="#buttons">Botões</a>
+            </li>
+            <li>
+                <a href="#cards">Cards</a>
+            </li>
+            <li>
+                <a href="#columns">Colunas</a>
+            </li>
+            <li>
+                <a href="#text-colors">Cores de Texto</a>
+            </li>
+            <li>
+                <a href="#display">Display</a>
+            </li>
+            <li>
+                <a href="#flexbox">Flexbox</a>
+            </li>
+            <li>
+                <a href="#fonts">Fontes</a>
+            </li>
+            <li>
+                <a href="#forms">Formulários</a>
+            </li>
+            <li>
+                <a href="#images">Imagens</a>
+            </li>
+            <li>
+                <a href="#links">Links</a>
+            </li>
+            <li>
+                <a href="#margins">Margens / Paddings</a>
+            </li>
+            <li>
+                <a href="#navbar">Navbar</a>
+            </li>
+            <li>
+                <a href="#overflow">Overflow</a>
+            </li>
+            <li>
+                <a href="#positions">Posições</a>
+            </li>
+            <li>
+                <a href="#shadows">Sombras</a>
+            </li>
+            <li>
+                <a href="#tables">Tabelas</a>
+            </li>
+            <li>
+                <a href="#screens">Telas</a>
+            </li>
+        </ul>
+    </aside>
+
+    <!-- First Section -->
+    <section class="section-1">
+        <div class="w-100 pt-3 ta-center">
+            <h1>Hare CSS</h1>
+            <div class="m-1">
+                <span>Download Grátis</span>
+            </div>
+
+            <!-- Btn for download page -->
+            <a href="downloads.html">
+                <button class="btn br-3 btn-lg green" id="btn-modal">Versão 1.0</button>
+            </a>
+
+        </div>
+    </section>
+
+    <!-- Section 2 -->
+    <section class="light-cyan">
+        <h2>O que o Hare CSS ?</h2>
+        <div class="flex jc-center fd-sm-col pl-2 pr-2">
+            <div class="fz-1h lg-40">
+                <p class="p-sm-1">
+                    O Hare CSS é um framework frontend e de Código Aberto, focado na produtividade e em oferecer
+                    uma baixa curva de aprendizagem, com uma gama de classes simples e ao mesmo tempo declarativas,
+                    mantendo um código compreensível.
+                </p>
+            </div>
+            <div class="p-2 ml-sm-5">
+                <img src="imgs/rocket-14.svg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 3 (Features)-->
+    <section id="cards">
+        <h2>Por que usá-lo ?</h2>
+        <!-- Cards -->
+        <div class="box-card">
+            <!-- Item 1 -->
+            <div class="card-item">
+                <img src="imgs/product-6.svg" alt="">
+                <span>Rapidez e Produtividade</span>
+                <p>
+                    Faça mais em menos tempo, o seu trabalho fica menos cansativo com o Hare CSS, isso porque
+                    ele usa <i>short class</i>.
+                </p>
+            </div>
+            <!-- Item 2 -->
+            <div class="card-item">
+                <img src="imgs/time-19.svg" alt="">
+                <span>Super Fácil</span>
+                <p>
+                    Quer um framework fácil de aprender ? Está sem tempo para ficar lendo longas documentações ? O Hare
+                    é perfeito para você.
+                </p>
+            </div>
+            <!-- Item 3 -->
+            <div class="card-item">
+                <img src="imgs/smartphone.svg" alt="">
+                <span>Responsivo</span>
+                <p>
+                    Construa interfaces que se adaptam ao máximo à telas de diferentes tamanhos.
+                    Algo imprescidível no desenvolvimento web atual.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 4 -->
+    <section class="light-cyan">
+        <div class="flex fd-col centralize">
+            <ul class="sec-4-list md-60 sm-90">
+                <li>
+                    <img src="imgs/checkmark-32.png" class="ckecks" alt="">
+                    <span>Mais de 150 Tons de Background</span>
+                </li>
+                <li>
+                    <img src="imgs/checkmark-32.png" class="ckecks" alt="">
+                    <span>12 Classes de Fontes</span>
+                </li>
+                <li>
+                    <img src="imgs/checkmark-32.png" class="ckecks" alt="">
+                    <span>Arquivos leves</span>
+                </li>
+                <li>
+                    <img src="imgs/checkmark-32.png" class="ckecks" alt="">
+                    <span>Documentação clara e objetiva</span>
+                </li>
+                <li>
+                    <img src="imgs/checkmark-32.png" class="ckecks" alt="">
+                    <span>Não usa Jquery</span>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Section 5 -->
+    <section class="sm-none">
+        <h2>Comparação com o Bootstrap</h2>
+        <div class="row fd-md-col jc-around pl-1 dark">
+            <!-- Col 1 -->
+            <div>
+                <h3>Bootstrap</h3>
+
+                <!-- Code -->
+                <pre>
+    <code class="tags-name">&lt;section&gt;</code>
+      <code class="tags-name">&lt;div </code><code class="att-class">class</code><code class="equal">=</code><code class="class-name">&quot;d-flex justify-content-center flex-column&quot;&gt;</code>
+        <code class="tags-name">&lt;div </code><code class="att-class">class</code><code
+            class="equal">=</code><code class="class-name">&quot;bg-primary&quot;&gt;</code>
+          <code class="tags-name">&lt;p </code><code class="att-class">class</code><code
+          class="equal">=</code><code
+          class="class-name">&quot;text-dark&nbsp;text-center&quot;&gt;</code>
+          Lorem ipsum dolor sit amet consectetur
+          Vitae cupiditate amet magni expedita
+          veritatis tenetur fugit nihil ullam.
+          <code class="tags-name">&lt;/p&gt;</code>
+        <code class="tags-name">&lt;/div&gt;</code>
+      <code class="tags-name">&lt;/div&gt;</code>
+    <code class="tags-name">&lt;/section&gt;</code>
+</pre>
+                <!-- End Code -->
+            </div>
+
+            <!-- Col 2 -->
+            <div class="pl-2 pr-2">
+                <h3>Hare CSS</h3>
+
+                <!-- Code -->
+                <pre>
+<code class="tags-name">&lt;section&gt;</code>
+  <code class="tags-name">&lt;div </code><code class="att-class">class</code><code class="equal">=</code><code class="class-name">&quot;flex jc-center fd-col&quot;&gt;</code>
+    <code class="tags-name">&lt;div </code><code class="att-class">class</code><code
+        class="equal">=</code><code class="class-name">&quot;blue&quot;&gt;</code>
+      <code class="tags-name">&lt;p </code><code class="att-class">class</code><code
+      class="equal">=</code><code
+      class="class-name">&quot;tc-dark&nbsp;ta-center&quot;&gt;</code>
+      Lorem ipsum dolor sit amet consectetur
+      Vitae cupiditate amet magni expedita
+      veritatis tenetur fugit nihil ullam.
+      <code class="tags-name">&lt;/p&gt;</code>
+    <code class="tags-name">&lt;/div&gt;</code>
+  <code class="tags-name">&lt;/div&gt;</code>
+<code class="tags-name">&lt;/section&gt;</code>
+</pre>
+                <!-- End Code -->
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="h-5r">
+        <div class="flex centralize vw-100 h-100 tc-white">
+            <div class="flex">
+                <span>Hare CSS &nbsp;</span>
+                <span id="box-year"></span>
+                <a href="">
+                    <span>&nbsp;- CC - BY ND</span>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JS -->
+    <script src="js/navbar.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/foot.js"></script>
+
+</body>
+
+</html>
